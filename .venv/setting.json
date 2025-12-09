@@ -1,0 +1,18 @@
+{
+  "python.defaultInterpreterPath": "./.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // 使用 Ruff 作为 Linter
+  "python.linting.enabled": true,
+  "python.linting.ruffEnabled": true,
+
+  // 使用 Black 格式化（也可用 Ruff formatter）
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+
+  // 可选：启用 Pylance 类型检查
+  "python.analysis.typeCheckingMode": "basic",
+
+  // 终端使用 zsh（macOS 默认）
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}
