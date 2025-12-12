@@ -10,14 +10,14 @@ from tqsdk.ta import BOLL
 # 设置合约代码
 SYMBOL = "DCE.m2105"
 api = TqApi(auth=TqAuth("17318514219", "huangHWC123"))
-#quote = api.get_quote(SYMBOL)
-#klines = api.get_kline_serial(SYMBOL, 60 * 60 * 24)
-#position = api.get_position(SYMBOL)
-#target_pos = TargetPosTask(api, SYMBOL)
+quote = api.get_quote(SYMBOL)
+klines = api.get_kline_serial(SYMBOL, 60 * 60 * 24)
+position = api.get_position(SYMBOL)
+target_pos = TargetPosTask(api, SYMBOL)
 klines = api.get_kline_serial("SHFE.ni2610", 10)
-while True:
-    # 通过wait_update刷新数据
-    api.wait_update()
+#while True:
+#    # 通过wait_update刷新数据
+#    api.wait_update()
 
 # 使用BOLL指标计算中轨、上轨和下轨，其中26为周期N  ，2为参数p
 def boll_line(klines):

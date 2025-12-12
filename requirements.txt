@@ -68,7 +68,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.5.0
 notebook_shim==0.2.4
-numpy==2.0.2
+#numpy=2.0.2
 overrides==7.7.0
 packaging==25.0
 pandas==2.3.3
@@ -99,7 +99,7 @@ rfc3986-validator==0.1.1
 rfc3987-syntax==1.1.0
 rpds-py==0.27.1
 ruff==0.14.8
-scipy==1.13.1
+#scipy==1.13.1
 Send2Trash==1.8.3
 sgqlc==17.1
 shinny-structlog==0.0.4
