@@ -5,4 +5,5 @@ from dotenv import load_dotenv
 load_dotenv()
 TQ_USERNAME = os.getenv("TQ_USERNAME")
 TQ_PASSWORD = os.getenv("TQ_PASSWORD")
+WEB_HOST = os.getenv("WEB_HOST")
 
